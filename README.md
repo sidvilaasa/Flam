@@ -33,27 +33,5 @@ Implement a simplified version of a HashMap without using any built-in dictionar
 
 **Tech**: C++ implementation using a manually designed hash function and separate chaining.
 
----
-
-### Q3: Book Review App (Android MVP)
-
-**Problem**:  
-Build a Minimum Viable Product (MVP) of a Book Review App using Java. It must allow users to:
-- Browse a list of books (title, author, thumbnail).
-- View book details (description, rating).
-- Mark books as favorite (saved locally using Room).
-- View favorite books offline.
-
-**Architecture**:
-- **MVVM** (Model-View-ViewModel)
-- Layers: UI → ViewModel → Repository → API/Database
-
-**Features**:
-- Retrofit or manual JSON for fetching data.
-- Room Database for local persistence.
-- LiveData for reactive UI updates.
-- Placeholder images (no Glide/Picasso).
-
----
 
 
